@@ -1,0 +1,49 @@
+.App {
+    text-align: center;
+    
+}
+
+.banner-box { width: 100%; height: 300px; overflow: hidden;margin: 0px auto; position: relative; }
+video { width: 100%; }
+.banner-text { position: absolute; top: 50%; width: 100%; }
+.banner-text p { margin-top: -24px; text-align: center; font-size: 1.5rem; color: #ffffff;}
+
+.home-header {
+    min-height: 50rem;
+    min-width: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.0rem;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.player-wrapper{
+    position: relative;
+}
+
+.react-player{
+    position: relative;;
+    top: 0;
+    left: 0;
+}
+
+.b-img{
+    width: 100%; height: 800px; overflow: hidden;margin: 0px auto; position: relative;
+}
+
+.Image{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-box { width: 100%; height: 300px; overflow: hidden;margin: 0px auto; position: relative; }
+video { width: 100%; }
+.banner-text { position: absolute; top: 40%; width: 100%; }
+.banner-text p { margin-top: -24px; text-align: center; font-size: 0.5rem; color: #ffffff;}
+
+video::-webkit-media-controls-fullscreen-button { display: none !important; }
+}
