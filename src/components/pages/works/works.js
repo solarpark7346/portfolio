@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactPlayer from 'react-player'
-
 import './works.css';
 
 import banner from '../../../assets/banner.mov';
+import Video from '../../video';
 
 const works = (props) => (
     <div className="App">
@@ -21,69 +20,7 @@ const works = (props) => (
     </div>
     <br/><br/>
         <header className="works-header">
-            <ReactPlayer
-                title='바이알라딘 공고 영상'
-                className='react-player'
-                url='https://www.youtu.be/Cw2SfUqtg_I' 
-                width='100%'
-                height='100%'
-                loading="lazy"
-                controls/> 
-        
-            <ReactPlayer
-                className='react-player'
-                title='MINO - ‘도망가 (Run away)’ 팬메이드 뮤직비디오 Fan Made MV'
-                url='https://www.youtu.be/iDiiqMILReY' 
-                width='100%'
-                height='100%'
-                loading="lazy"
-                controls/> 
-
-            <ReactPlayer
-                className='react-player'
-                title='[웹드라마] 거울귀신'
-                url='https://www.youtu.be/-U_OtHsd8pk' 
-                width='100%'
-                height='100%'
-                loading="lazy"
-                controls/> 
-
-            <ReactPlayer
-                className='react-player'
-                title='자동차 부릉부릉 [with a6400]'
-                url='https://www.youtu.be/cOlbGo2En0s' 
-                width='100%'
-                height='100%'
-                loading="lazy"
-                controls/> 
-
-            <ReactPlayer
-                className='react-player'
-                title='MACBOOK M1 PRO 16inch unboxing teaser video'
-                url='https://www.youtu.be/TE8UbETpmdY' 
-                width='100%'
-                height='100%'
-                loading="lazy"
-                controls/> 
-
-            <ReactPlayer
-                className='react-player'
-                title='닥터스트레인지 마법진진자라잔'
-                url='https://www.youtu.be/cpWxAtnxqBc' 
-                width='100%'
-                height='100%'
-                loading="lazy"
-                controls/> 
-
-            <ReactPlayer
-                className='react-player'
-                title='[4k] [국내여행] 담양으로 (죽녹원) iphone xs'
-                url='https://www.youtu.be/JQ8j1Y87Xqk' 
-                width='100%'
-                height='100%'
-                loading="lazy"
-                controls/> 
-
+            <Video />
         </header>
     </div>
 )
