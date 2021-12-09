@@ -41,7 +41,7 @@ const about = (props) => (
                     <h1>Adobe Premiere Pro</h1>
                     <div className="s-font">★★★★☆</div><br/>
                     <div className="">영상을 촬영하고 편집 할 때 주로 사용합니다.</div><br/>
-                    <div className="s-font"><Link to="../Works">작품 보러가기 ▶︎</Link></div><br/>
+                    <div className="s-font"><Link to="../portfolio/Works">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@ const about = (props) => (
                     <h1>Adobe After Effects</h1>
                     <div className="s-font">★★★☆☆</div><br/>
                     <div className="">영상 광고 디자인, 모션 그래픽을 할 때 사용합니다.</div><br/>
-                    <div className="s-font"><Link to="../Works">작품 보러가기 ▶︎</Link></div><br/>
+                    <div className="s-font"><Link to="../portfolio/Works">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@ const about = (props) => (
                     <h1>Adobe Photoshop</h1>
                     <div className="s-font">★★★★☆</div><br/>
                     <div className="">사진 보정, 상업용 판매 이미지 제작에 사용합니다.</div><br/>
-                    <div className="s-font"><Link to="../">작품 보러가기 ▶︎</Link></div><br/>
+                    <div className="s-font"><Link to="../portfolio">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
             </div>
 
@@ -83,7 +83,7 @@ const about = (props) => (
                     <h1>Adobe Illustrator</h1>
                     <div className="s-font">★★★☆☆</div><br/>
                     <div className="">작품의 로고 디자인, 모션 그래픽을 제작할 때<br/> 도움 되는 이미지를 제작합니다.</div><br/>
-                    <div className="s-font"><Link to="../Features">작품 보러가기 ▶︎</Link></div><br/>
+                    <div className="s-font"><Link to="../portfolio/Features">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
             </div>
         </header>
