@@ -22,7 +22,8 @@ class Video extends Component {
     super(props);
     this.state = {
         videoData: [
-        { link : 'https://www.youtu.be/Cw2SfUqtg_I' },
+        { link : 'https://www.youtu.be/JtyWq44Lp6E' },
+        { link : 'https://www.youtu.be/j0GBsMez1Is' },
         { link : 'https://www.youtu.be/iDiiqMILReY' },
         { link : 'https://www.youtu.be/-U_OtHsd8pk' },
         { link : 'https://www.youtu.be/cOlbGo2En0s' },
