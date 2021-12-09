@@ -2,6 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player'
 import './features.css';
 import banner from '../../../assets/banner.mov';
+import banner_gif from '../../../assets/img/banner.gif'
 
 import aladdin from '../../../assets/img/aladdin logo design.png'
 
@@ -12,9 +13,11 @@ const features = (props) => (
             <video 
                 autoPlay={"autoplay"} 
                 loop
+                playsinline={"playsinline"}
                 muted>
                 <source src={banner} type="video/mp4" />
             </video>
+            <img className='banner_img' alt="banner" src={banner_gif} />
             <div className="banner-text-features">
                 <p className="m-w-font">Features</p>
                 <p className="s-w-font">

@@ -63,3 +63,12 @@
     font-size: 0.9rem;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    .features-img{
+        max-width: 70%;
+    }
+
+    .banner-text-features { position: absolute; top: 30%; width: 100%; }
+    .banner-text-features p { margin-top: -44px; text-align: center; color: #ffffff;}
+}
