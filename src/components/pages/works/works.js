@@ -15,7 +15,10 @@ const works = (props) => (
             <source src={banner} type="video/mp4" />
         </video>
         <div className="banner-text">
-            <p className="m-font"> 뜨거운 차 본네트 위 계란 후라이가 되는 것처럼 앞으로 취직할 기업에 자연스럽게 스며들겠습니다. </p>
+            <p className="m-w-font">Work / Reel</p>
+                <p className="s-w-font">
+                Adobe Premiere Pro, After Effects<br/>
+                </p>
         </div>
     </div>
     <br/><br/>

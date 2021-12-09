@@ -9,7 +9,7 @@ const contact = (props) => (
                 <div className="left-contact">
                     <h5 className="main-font">LOCATION</h5>
                     
-                    <div className="m-font">{props.address}</div><br/>
+                    <div className="">{props.address}</div><br/>
                     <div className="s-font"><Link to="solarpark7346@gmail.com">{props.email}</Link></div><br/>
                     <div className="s-font">{props.name}</div><br/>
                 </div>
