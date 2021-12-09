@@ -17,12 +17,12 @@ const App = (props) => (
       <Navigation />
 
       <Routes>
-        <Route exact={true} path ="/About" element={<About />} />
-        <Route exact={true} path ="/Works" element={<Works />} />
-        <Route exact={true} path ="/Contact" element={<Contact />} />
-        <Route exact={true} path ="/Features" element={<Features />} />
+        <Route exact={true} path ="portfolio/About" element={<About />} />
+        <Route exact={true} path ="portfolio/Works" element={<Works />} />
+        <Route exact={true} path ="portfolio/Contact" element={<Contact />} />
+        <Route exact={true} path ="portfolio/Features" element={<Features />} />
         <Route exact={true} path ="/" element={<Home />} />
-        <Route exact={true} path ="/portfolio" element={<Home />} />
+        <Route exact={true} path ="portfolio" element={<Home />} />
       </Routes>
 
       <Footer />

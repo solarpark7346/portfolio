@@ -7,18 +7,18 @@ const Navigation = (props) => (
     <nav className="nav-bar">
         <div className="left-div">
             <div className="content">
-                <Link to="/">
+                <Link to="portfolio">
                     <h1>ARCHIVE</h1>
                 </Link>
             </div>
         </div>
         
         <div className="content">
-            <Link to="/"><h5>Home(photo)</h5></Link>
-            <Link to="About"><h5>About</h5></Link>
-            <Link to="Works"><h5>Works / Reel</h5></Link>
-            <Link to="Features"><h5>Features</h5></Link>
-            <Link to="Contact"><h5>Contact</h5></Link>
+            <Link to="portfolio"><h5>Home(photo)</h5></Link>
+            <Link to="portfolio/About"><h5>About</h5></Link>
+            <Link to="portfolio/Works"><h5>Works / Reel</h5></Link>
+            <Link to="portfolio/Features"><h5>Features</h5></Link>
+            <Link to="portfolio/Contact"><h5>Contact</h5></Link>
         </div>
     </nav>
 )
