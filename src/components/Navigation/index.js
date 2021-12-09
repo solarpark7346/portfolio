@@ -17,7 +17,7 @@ const Navigation = (props) => (
             <Link to="portfolio"><h5>Home(photo)</h5></Link>
             <Link to="portfolio/About"><h5>About</h5></Link>
             <Link to="portfolio/Works"><h5>Works / Reel</h5></Link>
-            <Link to="portfolio/Features"><h5>Features</h5></Link>
+            <Link to="portfolio/Buyaladdin"><h5 style={{color: 'red'}}>Buyaladdin</h5></Link>
             <Link to="portfolio/Contact"><h5>Contact</h5></Link>
         </div>
     </nav>

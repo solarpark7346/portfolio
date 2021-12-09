@@ -19,7 +19,7 @@ const features = (props) => (
             </video>
             <img className='banner_img' alt="banner" src={banner_gif} />
             <div className="banner-text-features">
-                <p className="m-w-font">Features</p>
+                <p className="m-w-font">Buyaladdin</p>
                 <p className="s-w-font">
                     디자인을 머티리얼과 같은 단순하면서도 럭셔리한 감성을 추구하고 있습니다.<br/>
                 </p>
@@ -42,14 +42,14 @@ const features = (props) => (
                 <ReactPlayer
                     title='유튭 영상이요'
                     className='react-player'
-                    url='https://www.youtu.be/Cw2SfUqtg_I'
+                    url='https://www.youtu.be/JtyWq44Lp6E'
                     width='100%' height='100%'
                     loading="lazy"
                     controls
                 />
             </div>
             <br/>
-            <div className="">바이 알라딘의 스트리밍 서비스 광고 영상을 제작했습니다.</div><br/>
+            <div className="">바이 알라딘의 기존 영상을 제작해보았습니다.</div><br/>
             <br/>
         </div>
 
@@ -59,13 +59,13 @@ const features = (props) => (
                 <ReactPlayer
                     title='유튭 영상이요'
                     className='react-player'
-                    url='https://www.youtu.be/Cw2SfUqtg_I'
+                    url='https://www.youtu.be/j0GBsMez1Is'
                     width='100%' height='100%'
                     loading="lazy"
                     controls
                 />
             </div><br/>
-            <div className="">바이 알라딘의 영상을 제작해보았습니다.</div><br/>
+            <div className="">바이 알라딘의 스트리밍 서비스 광고 영상을 제작했습니다.</div><br/>
             <br/>
         </div>
     </header>

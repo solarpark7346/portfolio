@@ -8,7 +8,7 @@ import Home from '../pages/home/home.js'
 import Contact from '../pages/contact/contact'
 import Works from '../pages/works/works.js'
 import About from '../pages/about/about.js'
-import Features from '../pages/features/features.js'
+import Buyaladdin from '../pages/features/features.js'
 
 import './App.css';
 
@@ -20,7 +20,7 @@ const App = (props) => (
         <Route exact={true} path ="portfolio/About" element={<About />} />
         <Route exact={true} path ="portfolio/Works" element={<Works />} />
         <Route exact={true} path ="portfolio/Contact" element={<Contact />} />
-        <Route exact={true} path ="portfolio/Features" element={<Features />} />
+        <Route exact={true} path ="portfolio/Buyaladdin" element={<Buyaladdin />} />
         <Route exact={true} path ="/" element={<Home />} />
         <Route exact={true} path ="portfolio" element={<Home />} />
       </Routes>

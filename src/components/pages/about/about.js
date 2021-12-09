@@ -39,7 +39,7 @@ const about = (props) => (
                 <img className="ARCHIVE_LOGO" alt="ARCHIVE_LOGO" src={pr} />
                 <div className="right-about">
                     <h1>Adobe Premiere Pro</h1>
-                    <div className="s-font">★★★★☆</div><br/>
+                    <div className="s-font"></div><br/>
                     <div className="">영상을 촬영하고 편집 할 때 주로 사용합니다.</div><br/>
                     <div className="s-font"><Link to="../portfolio/Works">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
@@ -49,7 +49,7 @@ const about = (props) => (
                 <img className="ARCHIVE_LOGO" alt="ARCHIVE_LOGO" src={ae} />
                 <div className="right-about">
                     <h1>Adobe After Effects</h1>
-                    <div className="s-font">★★★☆☆</div><br/>
+                    <div className="s-font"></div><br/>
                     <div className="">영상 광고 디자인, 모션 그래픽을 할 때 사용합니다.</div><br/>
                     <div className="s-font"><Link to="../portfolio/Works">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
@@ -59,7 +59,7 @@ const about = (props) => (
                 <img className="ARCHIVE_LOGO" alt="ARCHIVE_LOGO" src={xd} />
                 <div className="right-about">
                     <h1>Adobe XD</h1>
-                    <div className="s-font">★★★★☆</div><br/>
+                    <div className="s-font"></div><br/>
                     <div className="">웹 디자인 초안 와이어프레임, 디자인을 할 때 사용합니다.</div><br/>
                     <div className="s-font">
                         <a href="https://xd.adobe.com/view/7ac18f1d-8717-46ce-8e90-80e3f9e0b052-2f92/">작품 보러가기 ▶︎</a>
@@ -71,7 +71,7 @@ const about = (props) => (
                 <img className="ARCHIVE_LOGO" alt="ARCHIVE_LOGO" src={ps} />
                 <div className="right-about">
                     <h1>Adobe Photoshop</h1>
-                    <div className="s-font">★★★★☆</div><br/>
+                    <div className="s-font"></div><br/>
                     <div className="">사진 보정, 상업용 판매 이미지 제작에 사용합니다.</div><br/>
                     <div className="s-font"><Link to="../portfolio">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
@@ -81,7 +81,7 @@ const about = (props) => (
                 <img className="ARCHIVE_LOGO" alt="ARCHIVE_LOGO" src={ai} />
                 <div className="right-about">
                     <h1>Adobe Illustrator</h1>
-                    <div className="s-font">★★★☆☆</div><br/>
+                    <div className="s-font"></div><br/>
                     <div className="">작품의 로고 디자인, 모션 그래픽을 제작할 때<br/> 도움 되는 이미지를 제작합니다.</div><br/>
                     <div className="s-font"><Link to="../portfolio/Features">작품 보러가기 ▶︎</Link></div><br/>
                 </div>
