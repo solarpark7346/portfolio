@@ -22,6 +22,7 @@ const App = (props) => (
         <Route exact={true} path ="/Contact" element={<Contact />} />
         <Route exact={true} path ="/Features" element={<Features />} />
         <Route exact={true} path ="/" element={<Home />} />
+        <Route exact={true} path ="/portfolio" element={<Home />} />
       </Routes>
 
       <Footer />
