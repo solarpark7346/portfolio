@@ -46,7 +46,7 @@ const ImageContainer = props => {
             >
 
             {isVisible && (
-                <img className="Image" loading='lazy' src={props.src} alt={props.alt} />
+                <img className="Image" src={props.src} alt={props.alt} />
             )}
         </div>
     );

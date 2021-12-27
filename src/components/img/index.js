@@ -59,7 +59,7 @@ class Img extends Component {
                     'https://drive.google.com/uc?id=1_wo_-5UPGN9VXPU-miQqjF47KV6bJxC7' ,
                 ]
             })
-        }, )
+        }, 1000)
     }
     
     render() {

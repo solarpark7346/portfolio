@@ -8,17 +8,16 @@
 }
 
 .img_detail_text{
-    display: none;
-    /* position: absolute; 
+    position: absolute; 
     top: 45%;
     width: 50%;
     left: 25%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.808); */
+    background-color: rgba(0, 0, 0, 0.808);
 }
 
 .image-container {
-    position: relative;
+    position: static;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.05);
 }

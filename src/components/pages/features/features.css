@@ -58,7 +58,4 @@
     .features-img{
         max-width: 70%;
     }
-
-    .banner-text-features { position: absolute; top: 30%; width: 100%; }
-    .banner-text-features p { margin-top: -44px; text-align: center; color: #ffffff;}
 }
