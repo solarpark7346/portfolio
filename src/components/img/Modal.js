@@ -26,7 +26,7 @@ class Modal extends Component {
             <div className="background" onClick={() => this.props.close(null)}>
                 <div className="modal" onClick={(e) => e.stopPropagation()}>
                     <div className="viewer">
-                    <img src={currentImage} />
+                    <img src={currentImage} alt='img'/>
                     <br/>
                         <span 
                             className='Modal_left'

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactPlayer from 'react-player'
 import './styles.css';
 
-class Video_view extends Component {
+class VideoView extends Component {
     render() {
         return (
             <ReactPlayer
@@ -40,7 +40,7 @@ class Video extends Component {
     render() {
         const mapToComponent = data => {
             return data.map((video, i) => {
-            return (<Video_view video={video} key={i}/>);
+            return (<VideoView video={video} key={i}/>);
             });
     };
     
