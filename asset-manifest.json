@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.296dfb72.chunk.css",
+    "main.js": "/portfolio/static/js/main.6da1f53e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6da1f53e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d87ddb8b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d87ddb8b.js.map",
+    "static/js/2.251464ae.chunk.js": "/portfolio/static/js/2.251464ae.chunk.js",
+    "static/js/2.251464ae.chunk.js.map": "/portfolio/static/js/2.251464ae.chunk.js.map",
+    "static/js/3.80ffe179.chunk.js": "/portfolio/static/js/3.80ffe179.chunk.js",
+    "static/js/3.80ffe179.chunk.js.map": "/portfolio/static/js/3.80ffe179.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ea76d2e98c7d29b98717ab2c16a915ca.js": "/portfolio/precache-manifest.ea76d2e98c7d29b98717ab2c16a915ca.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.296dfb72.chunk.css.map": "/portfolio/static/css/main.296dfb72.chunk.css.map",
+    "static/js/2.251464ae.chunk.js.LICENSE.txt": "/portfolio/static/js/2.251464ae.chunk.js.LICENSE.txt",
+    "static/media/Image loading.png": "/portfolio/static/media/Image loading.ad133bf9.png",
+    "static/media/PBS.jpg": "/portfolio/static/media/PBS.cf95acdb.jpg",
+    "static/media/aladdin logo design.png": "/portfolio/static/media/aladdin logo design.6b2af502.png",
+    "static/media/banner.gif": "/portfolio/static/media/banner.bd9d8511.gif",
+    "static/media/xd.png": "/portfolio/static/media/xd.2acaf843.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d87ddb8b.js",
+    "static/js/2.251464ae.chunk.js",
+    "static/css/main.296dfb72.chunk.css",
+    "static/js/main.6da1f53e.chunk.js"
+  ]
+}
