@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './styles.css';
 import Modal from './Modal.js'
 
+import Imglazy from "./container";
 import ImageLoading from '../../assets/img/Image loading.png';
 
 class Img extends Component {
@@ -58,7 +59,7 @@ class Img extends Component {
                     'https://drive.google.com/uc?id=1_wo_-5UPGN9VXPU-miQqjF47KV6bJxC7' ,
                 ]
             })
-        }, 3000)
+        }, )
     }
     
     render() {
@@ -73,8 +74,8 @@ class Img extends Component {
                             className='img_detail_text_box'>
                                 <div className='img_detail_text'>상세보기</div>
                         </div>
-
-                        <img  className="Image"  src={image} loading='lazy' alt="alt" />
+                        
+                        <Imglazy src={image}/>
                     </div>
                 </>
             )

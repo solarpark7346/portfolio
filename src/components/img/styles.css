@@ -17,6 +17,12 @@
     background-color: rgba(0, 0, 0, 0.808); */
 }
 
+.image-container {
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.05);
+}
+
 .img_detail_text_box{
     position: absolute;
     width: 100%;
