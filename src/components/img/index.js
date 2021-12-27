@@ -1,54 +1,103 @@
 import React, {Component} from 'react';
 import './styles.css';
+import Modal from './Modal.js'
 
-class Img_view extends Component {
-    render() {
-        return (
-            <div className="s-img">
-                <img 
-                    className="Image" 
-                    alt="img" 
-                    src={this.props.img.link}
-                />
-            </div>
-        );
-    }
-}
+import ImageLoading from '../../assets/img/Image loading.png';
 
 class Img extends Component {
     constructor(props) {
     super(props);
     this.state = {
-        imgData: [
-        /* https://drive.google.com/uc?id= */
-        { link : 'https://drive.google.com/uc?id=1JwkbkzTCkYiEuVVbCCUB_F5s3vCnKdfv' },
-        { link : 'https://drive.google.com/uc?id=1HNMHgRvLnGcL__Um_LnURhRE8rCSS7E1' },
-        { link : 'https://drive.google.com/uc?id=1yeOudBK32vLz7XfvE0FKzjTUTJVWSZP_' },
-        { link : 'https://drive.google.com/uc?id=1C0rXdB5ka8xfQA1H5Fzo4nJWwMuq-YKk' },
-        { link : 'https://drive.google.com/uc?id=1SF_GAIsBfWx6AtAGhX1mhK42iqRedfRW' },
-        { link : 'https://drive.google.com/uc?id=1aO-TXkWRI7scqS6No_fBPWvt4QrH8sWY' },
-        { link : 'https://drive.google.com/uc?id=1IAILGfzAIFlfqK1OAftC1y75H0fiIDDJ' },
-        { link : 'https://drive.google.com/uc?id=1wXra4mijZ5j2ZNs1K6bq-vqajj1ADmj2' },
-        { link : 'https://drive.google.com/uc?id=1Ca4Nwo_qn9A0KckLkD1NfLW6WnSTmrWL' },
-        { link : 'https://drive.google.com/uc?id=1Hdbq99ThnWh5Tqzs1AOkh0g3uCF53RAY' },
-        { link : 'https://drive.google.com/uc?id=1Z1ihvVUpARRi42_lNJmpQRyLStLFIjsG' },
-        { link : 'https://drive.google.com/uc?id=1Jjm-jstx7Vnn09G7teC20VdX0on99Ux1' },
-        ]
-    };
+        imgData: [],
+        index: null,
+        hasModal: false,
+        };
+    }
+
+    controlModal = (index) => {
+        this.setState({
+            index: index,
+            hasModal: !this.state.hasModal
+        });
+    }
+    
+    componentDidMount() {
+            setTimeout(() => {
+                this.setState ({
+                    imgData: [
+                    /* https://drive.google.com/uc?id= */
+                    'https://drive.google.com/uc?id=1gC885X45CUXZ57m1BQqQFfxwtE2S5YTh',
+                    'https://drive.google.com/uc?id=17p-QGejh_GkEuXAR-AND3A0_jAq1bZ88',
+                    'https://drive.google.com/uc?id=1GJjb6U_s4GqTT91MwGkXc_ylswNbzmqU',
+                    'https://drive.google.com/uc?id=1kbMoYch2uWwQ6bjO56BwK-zIXCwhkkXD',
+                    'https://drive.google.com/uc?id=1tlpJ_sjJD3zI7Ax3KpT4GauG-zCPZk1-' ,
+                    
+                    'https://drive.google.com/uc?id=1amP9605VuhPRtfrdrkxRe687cXq0kMf2' ,
+                    'https://drive.google.com/uc?id=1pDw_KK0-j2TWKRz7apKFmmBwvRRIjQb9' ,
+                    'https://drive.google.com/uc?id=1P_L05gB62UhawjjWShu8OyYDbrQhCJJk' ,
+            
+            
+                    'https://drive.google.com/uc?id=1Sqzh9kiZxiq7df8udZVKjLfleyt8ZXGr' ,
+                    'https://drive.google.com/uc?id=1wnXqvJaLIAISdgZItpGS8J4Oe47jtZkE' ,
+                    'https://drive.google.com/uc?id=1bp9tYlJX4qZeSzFm2BMf7CXtMzcAsjAS' ,
+                    'https://drive.google.com/uc?id=1-A2z2qP4lArkXJ8PZaHnOJFmHGCTkA-S' ,
+            
+                    'https://drive.google.com/uc?id=1NRHs5pG1zXzVTZS4ylY3B7jHLXQi7rRQ' ,
+                    'https://drive.google.com/uc?id=1KIvw3UAkRJCbOLUQU7HrTv63hF46uGib' ,
+                    'https://drive.google.com/uc?id=1RTj-cIrbhIk5f1CnKqcyaFoBgpK9rsH2' ,
+                    'https://drive.google.com/uc?id=1lzlOlfantzuY7hP_fMs2jHFUc6y6oozP' ,
+                    'https://drive.google.com/uc?id=1mKygL1nfkB7RrSag-B3M-bj5Q0cot1cX' ,
+                    'https://drive.google.com/uc?id=1mjWpDO4ej18_S38xTs-WThJFPm-5hHdp' ,
+                    'https://drive.google.com/uc?id=1FtvZwjEoZy-qyZ-dYBn_HJE9c3YdVJzt' ,
+                    'https://drive.google.com/uc?id=1qvPIVOwTRlqhl3pAu1Gm6e15yWu3nC4T' ,
+            
+                    'https://drive.google.com/uc?id=1NOe7B63u6WxJaB1_H08hNSn9K8k_CMWF' ,
+                    'https://drive.google.com/uc?id=1PuVz3bVOaFRaYvtSmDhmcG_1J0s2_dGa' ,
+                    'https://drive.google.com/uc?id=1ONKxvqzTafh8DJ3rXO3SFBTZ9aHY_qk9' ,
+                    'https://drive.google.com/uc?id=1d0CF-YQ6eazFU9HE-zQv-IoiETnPz4u_' ,
+                    'https://drive.google.com/uc?id=1_wo_-5UPGN9VXPU-miQqjF47KV6bJxC7' ,
+                ]
+            })
+        }, 5000)
     }
     
     render() {
         const mapToComponent = data => {
-            return data.map((img, i) => {
-            return (<Img_view img={img} key={i}/>);
+            return data.map((image, index) => {
+            return (
+                <>
+                    <div className='imgBox'>
+                        <div 
+                            key={index} 
+                            onClick={() => this.controlModal(index)} 
+                            className='img_detail_text_box'>
+                                <div className='img_detail_text'>상세보기</div>
+                        </div>
+
+                        <img  className="Image"  src={image} loading='lazy' alt="alt" />
+                    </div>
+                </>
+            )
             });
-    };
+        };
+
+        return (
+            <>
+                {
+                    this.state.imgData 
+                        ? mapToComponent(this.state.imgData) 
+                        : <img 
+                            className="Loading_Image" 
+                            alt="loading" 
+                            src={ImageLoading}
+                            />
+                }
     
-    return (
-        <>
-        {mapToComponent(this.state.imgData)}
-        </>
-    );
+                {this.state.hasModal && (
+                    <Modal images={this.state.imgData} index={this.state.index} close={this.controlModal}></Modal>
+                )}
+            </>
+        );
     }
 }
 

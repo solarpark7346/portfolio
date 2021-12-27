@@ -9,7 +9,8 @@ class Video_view extends Component {
                 title='유튭 영상이요'
                 className='react-player'
                 url={this.props.video.link} 
-                width='100%' height='100%'
+                width='100%'
+                height='100%'
                 loading="lazy"
                 controls
             />
@@ -22,8 +23,10 @@ class Video extends Component {
     super(props);
     this.state = {
         videoData: [
+        { link : 'https://www.youtu.be/6ZcQZo9D5Is' },
+        { link : 'https://www.youtu.be/TDZsU9Q9Sic' },
         { link : 'https://www.youtu.be/JtyWq44Lp6E' },
-        { link : 'https://www.youtu.be/j0GBsMez1Is' },
+        { link : 'https://www.youtu.be/prb1Be7Zhro' },
         { link : 'https://www.youtu.be/iDiiqMILReY' },
         { link : 'https://www.youtu.be/-U_OtHsd8pk' },
         { link : 'https://www.youtu.be/cOlbGo2En0s' },

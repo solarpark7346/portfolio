@@ -15,7 +15,6 @@ import './App.css';
 const App = (props) => (
     <BrowserRouter>
       <Navigation />
-
       <Routes>
         <Route exact={true} path ="portfolio/About" element={<About />} />
         <Route exact={true} path ="portfolio/Works" element={<Works />} />

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player'
 import './features.css';
-import banner from '../../../assets/banner.mov';
 import banner_gif from '../../../assets/img/banner.gif'
 
 import aladdin from '../../../assets/img/aladdin logo design.png'
@@ -10,13 +9,6 @@ const features = (props) => (
     <div className="features">
     <header className="abfeaturesout-header">
         <div className="banner-box">
-            <video 
-                autoPlay={"autoplay"} 
-                loop
-                playsinline={"playsinline"}
-                muted>
-                <source src={banner} type="video/mp4" />
-            </video>
             <img className='banner_img' alt="banner" src={banner_gif} />
             <div className="banner-text-features">
                 <p className="m-w-font">Buyaladdin</p>
@@ -59,7 +51,7 @@ const features = (props) => (
                 <ReactPlayer
                     title='유튭 영상이요'
                     className='react-player'
-                    url='https://www.youtu.be/j0GBsMez1Is'
+                    url='https://www.youtu.be/prb1Be7Zhro'
                     width='100%' height='100%'
                     loading="lazy"
                     controls

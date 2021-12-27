@@ -2,20 +2,12 @@ import React from 'react';
 
 import './home.css';
 
-import banner from '../../../assets/banner.mov';
 import Img from '../../img'
 import banner_gif from '../../../assets/img/banner.gif'
 
 const home = (props) => (
     <div className="App">
         <div className="banner-box">
-            <video 
-                autoPlay={"autoplay"} 
-                loop
-                playsinline={"playsinline"}
-                muted>
-                <source src={banner} type="video/mp4" />
-            </video>
             <img className='banner_img' alt="banner" src={banner_gif} />
             <div className="banner-text">
                 <p className="m-w-font">Park bo seong</p>

@@ -1,4 +1,4 @@
-.App {
+.work {
     text-align: center;
     height: 100%;
 }
@@ -9,30 +9,21 @@ video { width: 100%; }
 .banner-text p { margin-top: -44px; text-align: center; color: #ffffff;}
 
 .works-header {
-    height: 1000px;
+    height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 1.5rem;
-    grid-row-gap: 1.5rem;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
     font-size: calc(10px + 2vmin);
     color: white;
 }
 
-@media screen and (max-width: 768px) {
-    .works-header {
-        height: 1500px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: calc(10px + 2vmin);
-        color: white;
-    }
-    
+.react-player{
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {    
     .banner-box video { display: none;}
     .banner_img { width: 100%; height: 70%; }
     .banner-text { position: absolute; top: 30%; width: 100%; }

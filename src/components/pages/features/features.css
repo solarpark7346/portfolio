@@ -54,16 +54,6 @@
     font-size: 2.5rem;
 }
 
-.m-font{
-    font-size: 1rem;
-    font-weight: lighter;
-}
-
-.s-font{
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
 @media screen and (max-width: 768px) {
     .features-img{
         max-width: 70%;

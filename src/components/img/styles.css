@@ -1,5 +1,106 @@
-.react-player{
-    position: relative;;
-    top: 0;
-    left: 0;
+.Loading_Image{
+    width: 500px;
+    height: 500px;
+}
+
+.imgBox{
+    overflow: hidden; margin: 0px auto; position: relative;
+}
+
+.img_detail_text{
+    display: none;
+    /* position: absolute; 
+    top: 45%;
+    width: 50%;
+    left: 25%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.808); */
+}
+
+.img_detail_text_box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img_detail_text_box:hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.747);
+    color: black;
+}
+
+.background {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Modal styles */
+
+.modal {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 80%;
+    height: 90%;
+}
+
+.Modal_left{
+    height: 100%;
+    
+}
+
+.Modal_right{
+    height: 100%;
+    
+}
+
+.viewer {
+    text-align: center;
+    height: 80%;
+}
+
+.viewer img {
+    margin: 3%;
+    height: 80%;
+}
+
+.thumbnails {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 6%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.thumbnails img {
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .modal {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 90%;
+        height: 90%;
+    }
+
+    .viewer {
+        text-align: center;
+        height: 50%;
+    }
+
+    .viewer img {
+        margin: 1%;
+        height: 90%;
+    }
 }
