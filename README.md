@@ -16,6 +16,9 @@
 
 </details>
 
+## :link: 배포 URL
+* solarpark7346.github.io/portfolio
+
 ## :clipboard: 개발환경
 * vscode
 * GitHub
@@ -23,13 +26,19 @@
 ## :clipboard: 사용 기술
 
 ### 프론트엔드
+* React
 * html
 * Javascript
 
 ## :clipboard: 주요 키워드
 * **Route**
 * **Modal**
+* **이미지 Lazy**
 * **EmailJS**
+* **GitHub pages 배포**
 * **componentDidMount**
 * **Git 버전관리**
+
+<details markdown="1">
+<summary>OPEN</summary>
 </details>
