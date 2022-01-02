@@ -7,15 +7,6 @@
     overflow: hidden; margin: 0px auto; position: relative;
 }
 
-.img_detail_text{
-    position: absolute; 
-    top: 45%;
-    width: 50%;
-    left: 25%;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.808);
-}
-
 .image-container {
     position: static;
     overflow: hidden;
@@ -24,16 +15,30 @@
 
 .img_detail_text_box{
     position: absolute;
+    color: rgba(240, 248, 255, 0);
+    text-align: center;
+    font-weight: lighter;
+    vertical-align: middle;
     width: 100%;
     height: 100%;
 }
 
 .img_detail_text_box:hover{
+    visibility: visible;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.747);
     color: black;
+}
+
+.img_detail_text{
+    position: absolute; 
+    top: 45%;
+    width: 50%;
+    left: 25%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.808);
 }
 
 .background {
@@ -54,7 +59,7 @@
 .modal {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     height: 90%;
 }
 
@@ -76,6 +81,7 @@
 .viewer img {
     margin: 3%;
     height: 80%;
+    width: auto;
 }
 
 .thumbnails {

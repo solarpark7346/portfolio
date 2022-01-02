@@ -72,7 +72,7 @@ class Img extends Component {
                             key={index} 
                             onClick={() => this.controlModal(index)} 
                             className='img_detail_text_box'>
-                                <div className='img_detail_text'>상세보기</div>
+                                Cilck here
                         </div>
                         
                         <Imglazy src={image}/>
