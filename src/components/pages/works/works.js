@@ -16,6 +16,8 @@ const works = (props) => (
             </div>
         </div>
         <br/>
+        <a href='https://www.youtube.com/channel/UCNUKp9Ee3-We40GgNtcTioQ'>▶︎ Youtube 'ARCHIVE' Link Click!!◀︎</a>
+        <br/><br/>
             <header className="works-header">
                 <Video />
             </header>
