@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './about.css';
 
+import Img from '../../img'
+import banner_gif from '../../../assets/img/banner.gif'
+
 import PBS from '../../../assets/img/PBS.jpg'
 
 import pr from '../../../assets/icons/pr.png'
@@ -12,6 +15,17 @@ import ai from '../../../assets/icons/ai.png'
 
 const about = (props) => (
     <div className="about">
+        
+            <div className="banner-box">
+                <img className='banner_img' alt="banner" src={banner_gif} />
+                <div className="banner-text">
+                    <p className="m-w-font">Park bo seong</p>
+                        <p className="s-w-font">
+                        뜨거운 차 본네트 위 계란 후라이가 되는 것처럼 앞으로 취직할 기업에 자연스럽게 스며들겠습니다.<br/>
+                    </p>
+                </div>
+            </div><br/><br/>
+        
         <header className="about-header">
             <div className="about-content">
                 <img className="PBS" alt="PBS" src={PBS} />

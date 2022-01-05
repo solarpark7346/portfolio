@@ -1,0 +1,14 @@
+.home-content{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: center;
+    gap: 300px;
+}
+
+.section-content{
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 100rem;
+    min-width: 10%;
+}

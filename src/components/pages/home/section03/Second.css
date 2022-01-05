@@ -1,0 +1,36 @@
+.Second{
+    text-align: center;
+    color: white;
+}
+
+.Second-content{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+.Second h1{
+    margin: 0;
+    padding: 10%;
+    font-weight: 300;
+    font-size: 1.5rem;
+    height: 4.5rem;
+    /* background-color: rgba(0, 0, 0, 0.20); */
+    color: black;
+}
+
+.Second strong{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: black;
+}
+
+.img-LOGO:hover{
+    animation-direction: alternate-reverse;
+    animation: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-delay: 100s;
+    filter: grayscale(0%);
+}
+
+
+.img-banner-box img {width: 100%; filter: grayscale(100%);}

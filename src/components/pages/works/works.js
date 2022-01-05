@@ -4,6 +4,8 @@ import './works.css';
 import banner_gif from '../../../assets/img/banner.gif'
 import Video from '../../video';
 
+import ARCHIVE_LOGO_IMG from '../../../assets/img/ARCHIVE.png'
+
 const works = (props) => (
     <div className="work">
         <div className="banner-box">
@@ -15,9 +17,14 @@ const works = (props) => (
                     </p>
             </div>
         </div>
-        <br/>
-        <a href='https://www.youtube.com/channel/UCNUKp9Ee3-We40GgNtcTioQ'>▶︎ Youtube 'ARCHIVE' Link Click!!◀︎</a>
-        <br/><br/>
+
+            <br/>
+            <img className='ARCHIVE_LOGO_IMG' alt='ARCHIVE_LOGO_IMG' src={ARCHIVE_LOGO_IMG} />
+            <br/><br/>
+            <a href='https://www.youtube.com/channel/UCNUKp9Ee3-We40GgNtcTioQ'>▶︎ Youtube 'ARCHIVE' Link Click!!◀︎</a>
+            <br/><br/>
+
+            <hr/><br/>
             <header className="works-header">
                 <Video />
             </header>

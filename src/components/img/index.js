@@ -74,9 +74,10 @@ class Img extends Component {
                             className='img_detail_text_box'>
                                 Cilck here
                         </div>
-                        
+            
                         <Imglazy src={image}/>
                     </div>
+                    
                 </>
             )
             });

@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react'; 
-import useInput from './hook/useInput'; 
+import useInput from '../../hooks/useInput'; 
 import emailjs from 'emailjs-com'; 
 
 const Email = () => { 

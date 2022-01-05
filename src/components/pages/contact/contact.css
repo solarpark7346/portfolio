@@ -1,6 +1,7 @@
 .contact{
     text-align: center;
     margin: 7vh;
+    padding-top: 10rem;
 }
 
 .contact-header {
@@ -60,6 +61,12 @@
     .contact{
         text-align: center;
         margin: 0;
+    }
+
+    .Sand_Email_From{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
 }

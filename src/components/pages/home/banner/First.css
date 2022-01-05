@@ -1,0 +1,20 @@
+.First{
+    padding: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.First h1{
+    margin: 0;
+    font-weight: 300;
+    font-size: 4.5rem;
+    color: white;
+}
+
+.First p{
+    color: white;
+}
+
+.First strong{
+    color: white;
+}

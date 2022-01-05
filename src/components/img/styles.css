@@ -3,6 +3,13 @@
     height: 500px;
 }
 
+.PBS_img{
+    width: 20rem;
+    filter: grayscale(100%);
+    border-radius: 70%;
+    overflow: hidden;
+}
+
 .imgBox{
     overflow: hidden; margin: 0px auto; position: relative;
 }
