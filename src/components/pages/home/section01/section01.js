@@ -4,7 +4,7 @@ import './section01.css';
 import PBS from '../../../../assets/img/PBS_img.png'
 
 const Section01 = (props) => (
-    <div className="home-content">
+    <div className="section01-div">
         <div>
             <img className='PBS_img' alt="PBS" src={PBS} />
         </div>

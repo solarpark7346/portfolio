@@ -1,0 +1,61 @@
+/* Modal styles */
+
+.modal {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.Modal_left{
+    height: 100%;
+    
+}
+
+.Modal_right{
+    height: 100%;
+    
+}
+
+.viewer {
+    text-align: center;
+    height: 80%;
+}
+
+.viewer img {
+    margin: 3%;
+    height: 80%;
+    width: auto;
+}
+
+.thumbnails {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 6%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.thumbnails img {
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .modal {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 90%;
+        height: 90%;
+    }
+
+    .viewer {
+        text-align: center;
+        height: 50%;
+    }
+
+    .viewer img {
+        margin: 1%;
+        height: 90%;
+    }
+}

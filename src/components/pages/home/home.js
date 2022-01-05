@@ -1,5 +1,4 @@
 import React, {Link} from 'react';
-import Img from "../../img";
 import './home.css';
 
 import gsap from "gsap";
@@ -8,11 +7,14 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import Banner from './banner/First';
 import banner_coding_img from '../../../assets/img/lens-1209823.jpg'
 
+// import Animation from '../../Transitions/animation';
+
 //Sections
 import Section01 from './section01/section01';
 import Section02 from './section02/Fourth';
 import Section03 from './section03/Second';
 import Section04 from './section04/Third';
+import ImgSection from './ImgSection';
 
 //hooks
 import useWindowSize from '../../hooks/useWindowSize';
@@ -42,6 +44,7 @@ const Home = (props) => {
             x: '0%', 
             duration: 4, 
             opacity: 1,
+            scale: 1.1,
         });
 
         gsap.to(rightTransition.current, {
@@ -55,6 +58,7 @@ const Home = (props) => {
             x: 0, 
             duration: 4, 
             opacity: 1,
+            scale: 1.1
         });
 
         gsap.to(upTransition.current, {
@@ -68,7 +72,7 @@ const Home = (props) => {
             x: 0, 
             duration: 4, 
             opacity: 1, 
-            
+            scale: 1.1
         });
     },[])
 
@@ -83,6 +87,8 @@ const Home = (props) => {
 
             <div className="Home">
                 <div className='section-content'>
+
+                    {/* <Animation  /> */}
 
                     <section className="section01" ref={leftTransition}>
                         <Section01 />
@@ -104,7 +110,7 @@ const Home = (props) => {
                     
                     <h1>Gallery</h1>
                     <section className="img-section">
-                        <Img />
+                        <ImgSection />
                     </section>
                 </div>
             </div>

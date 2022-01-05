@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import './styles.css';
-import Modal from './Modal.js'
+import Modal from '../../../util/ImgModal/Modal.js'
 
 import Imglazy from "./container";
-import ImageLoading from '../../assets/img/Image loading.png';
+import ImageLoading from '../../../../assets/img/Image loading.png';
 
-class Img extends Component {
+class ImgSection extends Component {
     constructor(props) {
     super(props);
     this.state = {
@@ -103,4 +103,4 @@ class Img extends Component {
     }
 }
 
-export default Img;
+export default ImgSection;

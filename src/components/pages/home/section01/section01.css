@@ -1,9 +1,10 @@
-.home-content{
+.section01-div{
     display: flex;
     flex-direction: row;
     text-align: start;
     justify-content: center;
     gap: 300px;
+    background-color: aquamarine;
 }
 
 .section-content{

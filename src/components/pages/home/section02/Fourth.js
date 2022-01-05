@@ -31,7 +31,6 @@ const Fourth = (props) => (
                 </strong>
             </h2>
         </div>
-        
     </div>
 )
 
