@@ -31,8 +31,11 @@
 * Javascript
 
 ## :clipboard: 주요 키워드
+* **폴더 정리(components, pages, hooks, util, assets ...)**
 * **Route**
+* **hook**
 * **Modal**
+* **GASP**
 * **이미지 Lazy**
 * **EmailJS**
 * **GitHub pages 배포**
@@ -44,6 +47,12 @@
 <img src="https://user-images.githubusercontent.com/61046271/147876875-b0dc6990-0846-4ecf-b4fa-a177cff476cf.gif" />
 
 사진을 크게 볼 수 있도록 모달창을 구현하였습니다.
+</details>
+
+<details markdown="1">
+<summary>애니메이션</summary>
+
+GASP(GreenSock Animation Platform)를 사용한 속성 조작을 사용하여 트랜지션을 제작하였습니다.
 </details>
 
 <details markdown="1">

@@ -10,7 +10,7 @@ import Works from '../pages/works/works.js'
 import About from '../pages/about/about.js'
 import Buyaladdin from '../pages/features/features.js'
 
-// import SmoothScroll from '../util/SmoothScroll/SmoothScroll';
+import SmoothScroll from '../util/SmoothScroll/SmoothScroll';
 
 import './App.css';
 

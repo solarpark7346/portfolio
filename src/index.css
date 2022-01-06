@@ -1,9 +1,7 @@
 body {
   margin: 0;
   height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "NanumSquare";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -29,6 +27,17 @@ code {
   -moz-animation: fadein 1s; /* Firefox */
   -webkit-animation: fadein 1s; /* Safari and Chrome */
   -o-animation: fadein 1s; 
+}
+
+
+@font-face {
+  font-family: "NanumGothic";
+  src: url(./assets/fonts/nanum-gothic/NanumGothic.ttf);
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url(./assets/fonts/nanum-square/NanumSquareL.ttf);
 }
 
 @media screen and (max-width: 768px) {

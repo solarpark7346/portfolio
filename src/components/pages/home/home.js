@@ -1,4 +1,4 @@
-import React, {Link} from 'react';
+import React from 'react';
 import './home.css';
 
 import gsap from "gsap";
@@ -12,7 +12,7 @@ import banner_coding_img from '../../../assets/img/lens-1209823.jpg'
 //Sections
 import Section01 from './section01/section01';
 import Section02 from './section02/Fourth';
-import Section03 from './section03/Second';
+import Section03 from './section03/Section03';
 import Section04 from './section04/Third';
 import ImgSection from './ImgSection';
 
@@ -22,10 +22,10 @@ import useWindowSize from '../../hooks/useWindowSize';
 const Home = (props) => { 
     const windowSize = useWindowSize();
 
-    const leftTransition    = React.useRef(null);
-    const rightTransition   = React.useRef(null);
-    const upTransition      = React.useRef(null);
-
+    const section01    = React.useRef(null);
+    const section02   = React.useRef(null);
+    const section03      = React.useRef(null);
+    
     React.useEffect(() => {
         window.onbeforeunload = function pushRefresh() {
             window.scrollTo(0, 0);
@@ -33,7 +33,7 @@ const Home = (props) => {
 
         gsap.registerPlugin(ScrollTrigger)
         
-        gsap.to(leftTransition.current, {
+        gsap.to(section01.current, {
             scrollTrigger: {
                 trigger: ".section01",
                 markers: true,
@@ -44,10 +44,10 @@ const Home = (props) => {
             x: '0%', 
             duration: 4, 
             opacity: 1,
-            scale: 1.1,
+            scale: 1.01,
         });
 
-        gsap.to(rightTransition.current, {
+        gsap.to(section02.current, {
             scrollTrigger: {
                 trigger: ".section02",
                 markers: true,
@@ -58,10 +58,10 @@ const Home = (props) => {
             x: 0, 
             duration: 4, 
             opacity: 1,
-            scale: 1.1
+            scale: 1.01
         });
 
-        gsap.to(upTransition.current, {
+        gsap.to(section03.current, {
             scrollTrigger: {
                 trigger: ".section03",
                 markers: true,
@@ -72,7 +72,7 @@ const Home = (props) => {
             x: 0, 
             duration: 4, 
             opacity: 1, 
-            scale: 1.1
+            scale: 1.01
         });
     },[])
 
@@ -90,23 +90,21 @@ const Home = (props) => {
 
                     {/* <Animation  /> */}
 
-                    <section className="section01" ref={leftTransition}>
+                    <section className="section01" ref={section01}>
                         <Section01 />
                     </section>
 
-                    <section className='section02' ref={rightTransition}>
+                    <section className='section02' ref={section02}>
                         <Section02 />
                     </section>
                         
-                    <section className='section03' ref={upTransition}>
+                    <section className='section03' ref={section03}>
                         <Section03 />
                     </section>
 
                     <section className='section04'>
                         <Section04 />
                     </section>
-                
-                        
                     
                     <h1>Gallery</h1>
                     <section className="img-section">

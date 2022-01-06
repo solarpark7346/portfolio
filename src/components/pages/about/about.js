@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './about.css';
 
-import Img from '../../img'
 import banner_gif from '../../../assets/img/banner.gif'
 
 import PBS from '../../../assets/img/PBS.jpg'
