@@ -75,10 +75,22 @@
         margin: 0;
     }
 
+    .LOCATION{
+        text-align: center;
+    }
+    
+    .s-font{
+        text-align: center;
+    }
+
     .Sand_Email_From{
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    .sand-button{
+        text-align: center;
     }
 
 }

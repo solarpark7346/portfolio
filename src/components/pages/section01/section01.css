@@ -15,7 +15,7 @@
 }
 
 .l-font{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: bolder;
 }
 
@@ -29,5 +29,15 @@
 
     .section01-div{
         flex-direction: column;
+    }
+
+    .profile-about{
+        padding-top: 2%;
+        text-align: center;
+    }
+
+    .profile-text{
+        font-size: 0.9rem;
+        text-align: left;
     }
 }

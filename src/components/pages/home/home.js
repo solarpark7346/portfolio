@@ -151,8 +151,6 @@ const Home = (props) => {
                         <div className="img-section" >
                             <ImgSection />
                         </div>
-                    
-                    
 
                     <section className='section05' ref={section05}>
                         <h1 style={{ color: 'white' }}>Contact</h1>
