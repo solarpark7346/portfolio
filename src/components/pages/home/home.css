@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-bottom: 10%;
     color: #ffffff;
 }
@@ -83,5 +83,5 @@ section{
 
 .section05 { 
     border-radius: 2rem;
-    padding: 5%;
+ 
 }

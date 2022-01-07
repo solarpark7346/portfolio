@@ -1,11 +1,14 @@
 .contact{
-    padding-top: 15%;
     text-align: center;
     color: #ffffff;
 }
 
 .contact-header {
     flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    padding: 5%;
+    color: black;
 }
 
 .left-contact{
@@ -42,7 +45,7 @@
     border-bottom: 1px solid;
     padding: 0.7rem;
     margin: 0.3rem;
-    color: #ffffff;
+    color: black;
     background-color: transparent;
 }
 
@@ -53,7 +56,7 @@
     border-right: none;
     border-bottom: none;
     background-color: transparent;
-    color: #ffffff;
+    color: black;
     text-align: right;
     font-size: 1rem;
 }

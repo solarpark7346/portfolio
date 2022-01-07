@@ -49,9 +49,7 @@ const Fourth = (props) => (
                 </div>
             </div>
         </div>
-    
-        <br /><br />
-        <hr/><br />
+        <hr style={{margin:"5%",}}/>
         <div className='Fourth-content'>
             <h2>촬영<br/>
                 <strong>

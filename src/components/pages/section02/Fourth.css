@@ -1,6 +1,5 @@
 .Fourth{
     text-align: start;
-    
 }
 
 .Fourth hr{
@@ -9,6 +8,9 @@
 
 .left-section{
     width: 100%;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
 }
 
 .Fourth h1{
@@ -37,5 +39,39 @@
 .section04_flex{
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
+}
+
+.Section03-content{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.Section03{
+    text-align: center;
+    color: white;
+}
+
+.Section03 h1{
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.Section03 h1 strong{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .Section03-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
 }

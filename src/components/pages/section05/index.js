@@ -10,8 +10,8 @@ const Section05 = (props) => (
             <div className="contact-content">
                 <div className="left-contact">
                     <h1 className="LOCATION">LOCATION</h1>
-            <br />
-            <br />
+                    <br />
+                    <br />
                     <div className="">{props.address}</div><br/>
                     <div className="s-font"><Link to="solarpark7346@gmail.com">{props.email}</Link></div><br/>
                     <div className="s-font">{props.name}</div><br/>

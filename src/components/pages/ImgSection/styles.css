@@ -59,3 +59,16 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+.img-LOGO:hover{
+    animation-direction: alternate-reverse;
+    animation: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-delay: 100s;
+    filter: grayscale(0%);
+}
+
+
+.img-banner-box img {
+    width: 50%; 
+    filter: grayscale(100%);
+}
