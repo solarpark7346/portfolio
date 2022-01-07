@@ -36,7 +36,6 @@ const Home = (props) => {
         gsap.to(img_section.current, {
             scrollTrigger: {
                 trigger: ".img-section",
-                markers: true,
                 start: "top center",
                 end: "top center",
                 scrub: 1,
@@ -51,7 +50,6 @@ const Home = (props) => {
         gsap.to(section01.current, {
             scrollTrigger: {
                 trigger: ".section01",
-                markers: true,
                 start: "top center",
                 end: "center center",
                 scrub: 1,
@@ -66,7 +64,6 @@ const Home = (props) => {
         gsap.to(section02.current, {
             scrollTrigger: {
                 trigger: ".section02",
-                markers: true,
                 start: "top center",
                 end: "center center",
                 scrub: 1,
@@ -81,7 +78,6 @@ const Home = (props) => {
         gsap.to(section03.current, {
             scrollTrigger: {
                 trigger: ".section03",
-                markers: true,
                 start: "top center",
                 end: "center center",
                 scrub: 1,
@@ -96,7 +92,6 @@ const Home = (props) => {
         gsap.to(section04.current, {
             scrollTrigger: {
                 trigger: ".section04",
-                markers: true,
                 start: "top center",
                 end: "center center",
                 scrub: 1,
@@ -111,7 +106,6 @@ const Home = (props) => {
         gsap.to(section05.current, {
             scrollTrigger: {
                 trigger: ".section05",
-                markers: true,
                 start: "top center",
                 end: "center center",
                 scrub: 1,
@@ -152,12 +146,12 @@ const Home = (props) => {
                         <Section04 />
                     </section>
                     
-                    <section>
+                    
                         <h1 style={{ color: 'white' }}>Gallery</h1>
-                        <div className="img-section" ref={img_section}>
+                        <div className="img-section" >
                             <ImgSection />
                         </div>
-                    </section>
+                    
                     
 
                     <section className='section05' ref={section05}>

@@ -72,7 +72,6 @@ class ImgSection extends Component {
                             key={index} 
                             onClick={() => this.controlModal(index)} 
                             className='img_detail_text_box'>
-                                
                         </div>
             
                         <Imglazy src={image}/>

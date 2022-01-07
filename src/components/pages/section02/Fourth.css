@@ -70,8 +70,24 @@
 @media screen and (max-width: 768px) {
     .Section03-content{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         width: 100%;
+        margin-top: 10%;
     }
+
+    .Section03-content h1{
+        font-size: 0.5rem;
+    }
+
+    .Section03-content h1 strong{
+        font-size: 0.1rem;
+    }
+
+    .section04_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

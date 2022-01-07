@@ -8,6 +8,12 @@ body {
   margin: 3rem;
 }
 
+@media screen and (max-width: 768px) {
+ body {
+  margin: 0 auto;
+ }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
