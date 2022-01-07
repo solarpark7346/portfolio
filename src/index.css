@@ -4,8 +4,8 @@ body {
   font-family: "NanumSquare";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* margin: 3rem; */
+  background-color: #222831;
+  margin: 3rem;
 }
 
 code {
@@ -13,10 +13,13 @@ code {
     monospace;
 }
 
+a{
+  color: white;
+}
+
 *{
   text-decoration-line: none;
   text-decoration : none;
-  color: black;
 
   -webkit-user-select: none;
   -moz-user-select: none;

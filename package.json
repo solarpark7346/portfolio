@@ -10,7 +10,7 @@
     "emailjs-com": "^3.2.0",
     "gsap": "^3.9.1",
     "history": "^5.1.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "4.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-player": "^2.9.0",
@@ -24,6 +24,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.1",
     "scrollmagic": "^2.0.8",
+    "styled-components": "^5.3.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

@@ -1,0 +1,30 @@
+.section01-div{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: center;
+    gap:  20%;
+    background-color: #ffffff;
+    border-radius: 2rem;
+    padding: 5%;
+}
+
+.l-font{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.profile-about strong{
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-box img { width: 100%; height: 10rem; }
+    /* video::-webkit-media-controls-fullscreen-button { display: none !important; } */
+
+    .section01-div{
+
+        flex-direction: column;
+
+    }
+}
