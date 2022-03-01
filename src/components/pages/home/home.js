@@ -3,7 +3,7 @@ import './home.css';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-import './stars.scss'
+// import './stars.scss'
 
 //Sections
 import Banner from '../banner/First';
@@ -12,8 +12,6 @@ import Section02 from '../section02/Fourth';
 import Section04 from '../section04';
 import Section05 from '../section05';
 import ImgSection from '../ImgSection';
-
-// test commit
 
 //hooks
 import useWindowSize from '../../hooks/useWindowSize';
