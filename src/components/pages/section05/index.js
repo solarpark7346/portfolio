@@ -30,7 +30,7 @@ const Section05 = (props) => (
 
 Section05.defaultProps = {
     email: 'solarpark7346@gmail.com',
-    address: '대한민국 대구광역시 달서구 계대동문로 99',
+    address: '서울특별시 마포구 상암동 1596 상암디엠씨 푸르지오시티 s-city 16층 1637호',
     name: '영상 제작자 박보성 / 010-6606-1698',
     instar: 'instagram @Park_Bo_Seong 박보성'
 }

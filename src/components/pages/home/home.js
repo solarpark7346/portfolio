@@ -3,7 +3,7 @@ import './home.css';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-// import './stars.scss'
+import './stars.scss'
 
 //Sections
 import Banner from '../banner/First';
@@ -122,9 +122,8 @@ const Home = (props) => {
         <div className="App">
             <div className='Home-header'>
                 <Banner />
+                <h2 style={{color:"white", textAlign:'center'}}>🌟 밑으로 스크롤 해주세요! 🌟</h2>
             </div>
-
-            <h2 style={{color:"white", textAlign:'center'}}>🌟 밑으로 스크롤 해주세요! 🌟</h2>
 
             <div className="Home">
                 <div className='section-content'>

@@ -40,13 +40,13 @@ a{
 
 
 @font-face {
-  font-family: "NanumGothic";
-  src: url(./assets/fonts/nanum-gothic/NanumGothic.ttf);
+  font-family: "GmarketSansMedium";
+  src: url(./assets/fonts/GmarketSansOTF/GmarketSansMedium.otf);
 }
 
 @font-face {
-  font-family: "NanumSquare";
-  src: url(./assets/fonts/nanum-square/NanumSquareL.ttf);
+  font-family: "GmarketSansLight";
+  src: url(./assets/fonts/GmarketSansOTF/GmarketSansLight.otf);
 }
 
 @media screen and (max-width: 768px) {

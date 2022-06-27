@@ -6,8 +6,10 @@
     align-items: center;
     gap:  20%;
     background-color: #ffffff;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 5%;
+    font-family: GmarketSansLight;
+    
 }
 
 .profile-about{
@@ -16,11 +18,16 @@
 
 .l-font{
     font-size: 2.0rem;
+    font-family: GmarketSansBold;
     font-weight: bolder;
 }
 
 .profile-about strong{
     font-weight: lighter;
+}
+
+.profile-text{
+    font-family: GmarketSansMedium;
 }
 
 @media screen and (max-width: 768px) {
@@ -29,6 +36,7 @@
 
     .section01-div{
         flex-direction: column;
+        width: auto;
     }
 
     .profile-about{
@@ -39,5 +47,6 @@
     .profile-text{
         font-size: 0.9rem;
         text-align: left;
+        font-family: GmarketSansMedium;
     }
 }

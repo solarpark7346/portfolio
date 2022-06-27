@@ -94,12 +94,6 @@
         align-items: center;
     }
 
-    .Fourth-content{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
     .Fourth-content h2{
         font-size: 1rem;
     }

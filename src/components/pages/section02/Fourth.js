@@ -6,6 +6,11 @@ import ae from '../../../assets/icons/ae.png'
 import ps from '../../../assets/icons/ps.png'
 import ai from '../../../assets/icons/ai.png'
 
+import archive_logo from '../../../assets/img/logo/archive_logo.png'
+import ninefruit_logo from '../../../assets/img/logo/ninefruit_logo.jpg'
+import ahahclip_logo from '../../../assets/img/logo/ahahclip_logo.jpg'
+import { Link } from 'react-router-dom';
+
 const Fourth = (props) => (
     <div className="Fourth">
         <div className='section04_flex'>
@@ -50,27 +55,30 @@ const Fourth = (props) => (
             </div>
         </div>
         <hr style={{margin:"5%",}}/>
+        <center><h2>Youtube</h2></center>
+        <br/>
+
         <div className='Fourth-content'>
-            <h2>[촬영]<br/>
-                <strong>
-                    기본의 충실한 작업을 추구하며 느낌있는 영상을<br/>
-                    표현하고자 하는 메세지를 담아 의미를 전달합니다.<br/>
-                </strong>
-            </h2>
+            <div className="img-banner-box">
+                <a href='https://www.youtube.com/channel/UCNUKp9Ee3-We40GgNtcTioQ'>
+                    <img className="img-LOGO" alt="LOGO" src={archive_logo} />
+                </a>
+                <h3>아카이브<br/></h3>
+            </div>
 
-            <h2>[편집]<br/>
-                <strong>
-                    어도비 게열 프로그램을 주로 사용합니다.<br/>
-                    (Premiere Pro, After Effects, Photoshop, Illustrator, XD)
-                </strong>
-            </h2>
+            <div className="img-banner-box">
+                <a href='https://www.youtube.com/channel/UCgx4TX8unAmdfXI9mwoWMOA'>
+                    <img className="img-LOGO" alt="LOGO" src={ninefruit_logo} />    
+                </a>
+                <h3>나인프루트<br/></h3>
+            </div>
 
-            <h2>[보정]<br/>
-                <strong>
-                    포토샵으로 사진을 좀 더 생동감있게 보정하고,<br/>
-                    저만의 색감으로 영상을 보정하는 것을 좋아합니다.
-                </strong>
-            </h2>
+            <div className="img-banner-box">
+                <a href='https://www.youtube.com/channel/UCGQJUIYmpAFpMhMQIXk7yDQ'>
+                    <img className="img-LOGO" alt="LOGO" src={ahahclip_logo} />
+                </a>
+                <h3>아아클립<br/></h3>
+            </div>
         </div>
     </div>
 )

@@ -6,7 +6,7 @@
 .contact-header {
     flex-direction: column;
     background-color: #ffffff;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 5%;
     color: black;
 }

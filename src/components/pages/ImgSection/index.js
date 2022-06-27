@@ -26,7 +26,10 @@ class ImgSection extends Component {
             setTimeout(() => {
                 this.setState ({
                     imgData: [
-                    /* https://drive.google.com/uc?id= */
+                    /* https://drive.google.com/uc?id=*/
+                    'https://drive.google.com/uc?id=1j6JgptkTXJO8oHBsXAphrTGNZe4VweEi',
+                    'https://drive.google.com/uc?id=142vaMc23zNgkeOUJe_7_sgBFcCkMstVe',
+                    'https://drive.google.com/uc?id=1xyCIlBfHw6oUzIGoRAxnrmhWDVYHgJno',
                     'https://drive.google.com/uc?id=1gC885X45CUXZ57m1BQqQFfxwtE2S5YTh',
                     'https://drive.google.com/uc?id=17p-QGejh_GkEuXAR-AND3A0_jAq1bZ88',
                     'https://drive.google.com/uc?id=1GJjb6U_s4GqTT91MwGkXc_ylswNbzmqU',
