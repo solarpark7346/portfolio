@@ -1,7 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './home.css';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import ShowMore from 'react-show-more-button';
 
 import './stars.scss'
 
@@ -17,7 +18,6 @@ import ImgSection from '../ImgSection';
 import useWindowSize from '../../hooks/useWindowSize';
 
 const Home = (props) => { 
-
     const img_section    = React.useRef(null);
 
     const section01      = React.useRef(null);
@@ -35,9 +35,9 @@ const Home = (props) => {
 
         gsap.to(img_section.current, {
             scrollTrigger: {
-                trigger: ".img-section",
+                trigger: ".img_section",
                 start: "top center",
-                end: "top center",
+                end: "center center",
                 scrub: 1,
             },
             x: 0, 
@@ -142,14 +142,39 @@ const Home = (props) => {
 
                     <section className='section04' ref={section04}>
                         <h1 style={{ color: 'white' }}>Videos</h1>
-                        <Section04 />
+                        <ShowMore 
+                            maxHeight={'50vh'}
+                            styleButton={{
+                                backgroundColor: 'black',
+                                border: 'none',
+                                borderRadius:'0.5rem',
+                                hover:'black',
+                                fontFamily: 'GmarketSansBold'
+                                }
+                            }>
+                            <Section04 />
+                        </ShowMore>
                     </section>
-                    
-                    
+                
+                    <section className='img_section' ref={img_section}>
                         <h1 style={{ color: 'white' }}>Gallery</h1>
-                        <div className="img-section" >
-                            <ImgSection />
-                        </div>
+                        <ShowMore 
+                            maxHeight={'50vh'}
+                            styleButton={{
+                                backgroundColor: 'black',
+                                border: 'none',
+                                hover:'black',
+                                fontFamily: 'GmarketSansBold'
+                                }
+                            }
+                            styleButtonDiv={{
+                                border: 'none'
+                            }}>
+                            <div className="img-section" >
+                                    <ImgSection />
+                            </div>
+                        </ShowMore>
+                    </section>
 
                     <section className='section05' ref={section05}>
                         <h1 style={{ color: 'white' }}>Contact</h1>

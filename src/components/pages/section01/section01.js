@@ -1,17 +1,23 @@
 import React from 'react';
 import './section01.css';
 
-import PBS from '../../../assets/img/PBS_img.png'
+import PBS from '../../../assets/img/PBS_imgg.jpeg'
+
+import InstagramEmbed from 'react-instagram-embed';
+import { IGEmbed } from 'react-ig-embed';
 
 const Section01 = (props) => (
     <div className="section01-div">
-        <div>
-            <img className='PBS_img' alt="PBS" src={PBS} />
-        </div>
+        <div className='insta'>
+                <IGEmbed url="https://www.instagram.com/p/CccK804vHFz/" />
+            </div>
         
         <div className="profile-about">
             <div>
-                <h2>영상 제작자</h2>
+                <img className='PBS_img' alt="PBS" src={PBS} />
+            </div>
+            <div>
+                <h2>ARCHIVE</h2>
                 
                 <pr className='l-font'>
                     박 보 성</pr><br/><br/>
@@ -20,8 +26,7 @@ const Section01 = (props) => (
 
             <br/><hr/><br/>
             <div className='profile-text'>
-                안녕하세요. 저는 영상쪽의 닥터스트레인지 입니다.<br/>
-                <br/><br/>
+                #편집 #포토샵 #어도비 #프리미어<br/>#에펙 #일러스트 #편집자.
             </div>
         </div>
     </div>

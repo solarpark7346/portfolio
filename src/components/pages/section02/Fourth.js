@@ -26,39 +26,55 @@ const Fourth = (props) => (
                 <div className='Section03-content'>
                     <div className="img-banner-box">
                         <img className="img-LOGO" alt="LOGO" src={pr} />
-                        <h1>Premiere Pro<br/>
-                            
-                        </h1>
                     </div>
 
                     <div className="img-banner-box">
                         <img className="img-LOGO" alt="LOGO" src={ae} />
-                        <h1>After Effects<br/>
-                            
-                        </h1>
                     </div>
 
                     <div className="img-banner-box">
-                        <img className="img-LOGO" alt="LOGO" src={ps} />
-                        <h1>Photoshop<br/>
-                            
-                        </h1>
+                        <img className="img-LOGO" alt="LOGO" src={ps} /> 
                     </div>
 
                     <div className="img-banner-box">
                         <img className="img-LOGO" alt="LOGO" src={ai} />
-                        <h1>Illustrator<br/>
-                            
-                        </h1>
                     </div>
                 </div>
             </div>
         </div>
-        <hr style={{margin:"5%",}}/>
-        <center><h2>Youtube</h2></center>
-        <br/>
 
-        <div className='Fourth-content'>
+        <hr style={{margin:"3%",}}/>
+
+        <div className='section04_flex'>
+            <div className="Section03">
+                <div className='Fourth-content'>
+                    <div className="img-banner-box">
+                        <a href='https://www.youtube.com/channel/UCNUKp9Ee3-We40GgNtcTioQ'>
+                            <img className="img-LOGO" alt="LOGO" src={archive_logo} />
+                        </a>
+                    </div>
+
+                    <div className="img-banner-box">
+                        <a href='https://www.youtube.com/channel/UCgx4TX8unAmdfXI9mwoWMOA'>
+                            <img className="img-LOGO" alt="LOGO" src={ninefruit_logo} />    
+                        </a>
+                    </div>
+
+                    <div className="img-banner-box">
+                        <a href='https://www.youtube.com/channel/UCGQJUIYmpAFpMhMQIXk7yDQ'>
+                            <img className="img-LOGO" alt="LOGO" src={ahahclip_logo} />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </div>
+        <br/>
+        <h1 style={{fontSize: '80%',}}>※ 클릭해서 방문해보기!</h1>
+
+        
+
+        {/* <div className='Fourth-content'>
             <div className="img-banner-box">
                 <a href='https://www.youtube.com/channel/UCNUKp9Ee3-We40GgNtcTioQ'>
                     <img className="img-LOGO" alt="LOGO" src={archive_logo} />
@@ -79,7 +95,7 @@ const Fourth = (props) => (
                 </a>
                 <h3>아아클립<br/></h3>
             </div>
-        </div>
+        </div> */}
     </div>
 )
 

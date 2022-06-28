@@ -86,7 +86,7 @@ const Email = () => {
                 <button 
                     className='sand-button'
                     type="submit"
-                    > 보내기 
+                    > <br/>보내기 
                 </button> 
             </form> 
         ); 

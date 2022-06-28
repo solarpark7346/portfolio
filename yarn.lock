@@ -3178,6 +3178,11 @@
     "isobject" "^3.0.0"
     "static-extend" "^0.1.1"
 
+"classnames@^2.3.1":
+  "integrity" "sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA=="
+  "resolved" "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
+  "version" "2.3.1"
+
 "clean-css@^4.2.3":
   "integrity" "sha512-EJUDT7nDVFDvaQgAo2G/PJvxmp1o/c6iXLbswsBbUFXi1Nr+AjA2cKmfbKDMjMvzEe75g3P6JkaDDAKk96A85A=="
   "resolved" "https://registry.npmjs.org/clean-css/-/clean-css-4.2.4.tgz"
@@ -9190,7 +9195,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^17.0.2", "react-dom@>= 16.8.0", "react-dom@>=16.8":
+"react-dom@*", "react-dom@^17", "react-dom@^17.0.0 || ^16.0.0 || ^15.0.0 || ~0.14.0", "react-dom@^17.0.2", "react-dom@>= 16.8.0", "react-dom@>=16.8":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -9208,6 +9213,21 @@
   "integrity" "sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA=="
   "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
   "version" "3.2.0"
+
+"react-ig-embed@^2.0.21":
+  "integrity" "sha512-InJDbYKIGGzBrNkFstbu8PiusGj1nX+qTub2S2/3ybrOLjiuuBZdGRjHPuCiU4GBaR4hZ72Ht8pHvqnrLw9X0Q=="
+  "resolved" "https://registry.npmjs.org/react-ig-embed/-/react-ig-embed-2.0.21.tgz"
+  "version" "2.0.21"
+  dependencies:
+    "classnames" "^2.3.1"
+    "styled-components" "^5.3.3"
+
+"react-instagram-embed@^3.0.0":
+  "integrity" "sha512-9X/t1J2YXj76iYTnCQx7SQ7DwVNxQOMpE0mnEDgKM9c6z1m7THDmk+kxhdGOrxULSjSZMAwxSxwgRMgT9jEqng=="
+  "resolved" "https://registry.npmjs.org/react-instagram-embed/-/react-instagram-embed-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "type-fest" "^1.2.2"
 
 "react-is@^16.7.0":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
@@ -9339,7 +9359,12 @@
   optionalDependencies:
     "fsevents" "2.1.2"
 
-"react@*", "react@^15.3.0 || ^16.0.0", "react@^16.4.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.2", "react@>= 16.8.0", "react@>=16.6.0", "react@>=16.8", "react@17.0.2":
+"react-show-more-button@^1.0.0":
+  "integrity" "sha512-uDCVO99RB/nkDiW0Gztj3buxX3cEeoVc5pIrapYU6P40Msq5b28Krdi7c3BqqYF+W5Xz/eG3LSDmUfu3d6/k3A=="
+  "resolved" "https://registry.npmjs.org/react-show-more-button/-/react-show-more-button-1.0.0.tgz"
+  "version" "1.0.0"
+
+"react@*", "react@^15.3.0 || ^16.0.0", "react@^16.4.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17", "react@^17.0.0 || ^16.0.0 || ^15.0.0 || ~0.14.0", "react@^17.0.2", "react@>= 16.8.0", "react@>=16.0.0", "react@>=16.6.0", "react@>=16.8", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -10950,6 +10975,11 @@
   "integrity" "sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA=="
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.8.1.tgz"
   "version" "0.8.1"
+
+"type-fest@^1.2.2":
+  "integrity" "sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA=="
+  "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-1.4.0.tgz"
+  "version" "1.4.0"
 
 "type-is@~1.6.17", "type-is@~1.6.18":
   "integrity" "sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g=="

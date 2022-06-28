@@ -1,5 +1,6 @@
 .Fourth{
     text-align: start;
+    font-family: GmarketSansLight;
 }
 
 .Fourth hr{
@@ -11,28 +12,23 @@
     text-align: start;
     justify-content: center;
     align-items: center;
+    font-family: GmarketSansLight;
 }
 
 .Fourth h1{
     margin: 0;
     font-weight: 300;
-    font-size: 45px;
+    font-size: 2rem;
 }
 
 .Fourth h1 strong{
-    font-size: 60px;
-}
-
-.Fourth h2 strong{
-    font-size: 18px;
-    font-weight: lighter;
+    font-size: 2.5rem;
 }
 
 .Fourth-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-column-gap: 2rem;
-    grid-row-gap: 1.0rem;
+    
     text-align: center;
 }
 
@@ -67,17 +63,26 @@
     color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
     .Section03-content{
         display: flex;
         flex-direction: row;
         text-align: center;
         width: 100%;
-        margin-top: 10%;
+        margin-top: 2%;
     }
 
     .left-section{
         text-align: center;
+    }
+
+    .left-section h1{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    .left-section h1 strong{
+        font-size: 2.5rem;
     }
 
     .Section03-content h1{
@@ -94,8 +99,13 @@
         align-items: center;
     }
 
-    .Fourth-content h2{
-        font-size: 1rem;
+    .Fourth-content{
+        margin-top: 2%;
+    }
+
+    .Fourth-content h3{
+        font-size: 0.8rem;
+        color: black;
     }
 
     .Fourth-content h2 strong{

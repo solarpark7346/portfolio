@@ -1,7 +1,3 @@
-.Home{
-    padding: 10%;
-}
-
 .home-banner-box { width: 100%; overflow: hidden; margin: 0px auto; position: relative; }
 .home-banner-box img {width: 100%; height: 50rem; filter:brightness(40%)}
 .home-banner-text { position: absolute; top: 35%; text-align: center; width: 100%; }
@@ -21,7 +17,7 @@
     font-size: calc(10px + 2vmin);
     color: white;
     background-color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 3%;
 }
 
@@ -36,7 +32,7 @@
 .section-content{
     margin: 0 auto;
     justify-content: center;
-    max-width: 100rem;
+    max-width: 70rem;
     min-width: 10%;
 }
 
@@ -57,27 +53,20 @@ section{
     margin-bottom: 10rem;
 }
 
-.section01 { 
-    
-}
-
 .section02 { 
     background-color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 5%;
 }
 
 .section03 { 
     background-color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 5%;
 }
 
-.section04 { 
-}
-
 .section05 { 
-    border-radius: 1rem;
+    border-radius: 0.5rem;
  
 }
 
@@ -99,7 +88,7 @@ section{
         font-size: calc(10px + 2vmin);
         color: white;
         background-color: #ffffff;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         padding: 3%;
     }
 }

@@ -1,12 +1,14 @@
 .contact{
     text-align: center;
     color: #ffffff;
+    height: 80vh;
+    font-family: GmarketSansLight;
 }
 
 .contact-header {
     flex-direction: column;
     background-color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 5%;
     color: black;
 }
@@ -22,6 +24,7 @@
     flex-direction: row;
     align-items: center;
     gap: 5%;
+    width: 100%;
     justify-content: center;
 }
 
@@ -33,24 +36,27 @@
 
 .Sand_Email_From{
     display: flex;
+    visibility: initial;
     flex-direction: column;
-    width: 25rem;
+    width: 50vh;
 }
 
 /* Sand Email css */
 .sand-input{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid;
     padding: 0.7rem;
     margin: 0.3rem;
     color: black;
+    
+    font-family: GmarketSansLight;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
     background-color: transparent;
 }
 
-.sand-button{
-    margin: 2rem;
+.sand-button{  
     border-top: none;
     border-left: none;
     border-right: none;
@@ -59,6 +65,7 @@
     color: black;
     text-align: right;
     font-size: 1rem;
+    font-family: GmarketSansLight;
 }
 
 @media screen and (max-width: 768px) {
@@ -86,7 +93,7 @@
     .Sand_Email_From{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 40vh;
     }
 
     .sand-button{

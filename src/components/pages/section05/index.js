@@ -12,7 +12,7 @@ const Section05 = (props) => (
                     <h1 className="LOCATION">LOCATION</h1>
                     <br />
                     <br />
-                    <div className="">{props.address}</div><br/>
+                    <div className="s-font">{props.address}</div><br/>
                     <div className="s-font"><Link to="solarpark7346@gmail.com">{props.email}</Link></div><br/>
                     <div className="s-font">{props.name}</div><br/>
                     <div className="s-font">{props.instar}</div><br/>
@@ -30,7 +30,7 @@ const Section05 = (props) => (
 
 Section05.defaultProps = {
     email: 'solarpark7346@gmail.com',
-    address: '서울특별시 마포구 상암동 1596 상암디엠씨 푸르지오시티 s-city 16층 1637호',
+    address: '서울특별시 마포구 상암동 1596',
     name: '영상 제작자 박보성 / 010-6606-1698',
     instar: 'instagram @Park_Bo_Seong 박보성'
 }

@@ -8,7 +8,7 @@
     font-size: calc(10px + 2vmin);
     color: white;
     background-color: #ffffff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 5%;
 }
 
@@ -23,7 +23,7 @@
         font-size: calc(10px + 2vmin);
         color: white;
         background-color: #ffffff;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         padding: 5%;
     }
 }
